@@ -1,0 +1,39 @@
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+.navBar{
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navBarCategory{
+    padding: 10px;
+}
+#logo{
+    height: 68px;
+    width: 68px;
+}
+
+.heroImage{
+    height: 600px;
+    background-image: url("../images/arranged-tools-gardening-soil\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.heroImageText{
+  
+}
+.heroImageTitle{
+    color: white;
+    font-size: 48px;
+    margin-left: 50px;
+    width: 1015px;
+}
