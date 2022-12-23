@@ -156,14 +156,12 @@ p{
 }
 
 /* parnters and SPonsers*/
-.partnersNsponsers h3{
-    background-color: #D8E1DE;
-    margin-left: 50px;
-    margin-right: 50px;
-    text-align: center;
-}
 .pNsTitle{
-    font-size: 32px;
+    background-color: #D8E1DE;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin: 10px;
 }
 .partnersNsponsers{
     display: flex;
@@ -196,6 +194,7 @@ p{
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 .indMediaLinks{
@@ -209,6 +208,7 @@ p{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     text-decoration-line: underline;
+    text-align: center;
 }
 .indMediaLinks a{
     color: black;
@@ -254,6 +254,77 @@ footer{
 @media only screen and (max-width: 600px) {
     .navBarDesktop{
         display: none;
+    }
+    .navBarMobile{
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+        align-items: center;
+        gap: 10px;
+    }
+    #logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logo img{
+        height: 40px;
+    }
+    .heroImageTitle{
+        font-size: 18px;
+        width: 200px;
+    }
+    .heroImage{
+        background-position: 70% 0%;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    h6{
+        font-size: 16px;
+    }
+    .idPhoto
+    {
+        width: 150px;
+    }
+    .idPhotoaCaption{
+        width: 150px;
+    }
+    .blackDrop{
+        padding: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .indMembers{
+        width: 346px;
+    }
+    .pNsTitle{
+        background-color: white;
+    }
+    .pNsTitle h3{
+        font-weight: 700;
+    }
+    .indMediaLinks{
+        height: 55px;
+        width: 322px;
+    }
+    .indMediaLinks a{
+        font-size: 16px;
+    }
+    .footerNavBar{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 50px;
     }
 
 
