@@ -313,6 +313,16 @@ footer{
     .pNsTitle h3{
         font-weight: 700;
     }
+    div.partnerImages, div.sponserImages{
+        display: inline-block;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .indMedia{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
     .indMediaLinks{
         height: 55px;
         width: 322px;
