@@ -156,19 +156,24 @@ p{
 }
 
 /* parnters and SPonsers*/
-.pNsTitle{
+.background{
     background-color: #D8E1DE;
+    width: 1200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: absolute;
+}
+.pNsTitle{
     text-align: center;
-    display: inline-block;
-    width: 100%;
-    margin: 10px;
+    display: relative;
 }
 .partnersNsponsers{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
-.partner, .sponser{
+.partners, .sponser{
     display: flex;
     flex-direction: column;
     align-items: center;
